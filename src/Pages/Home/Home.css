@@ -1,0 +1,180 @@
+/* 1. This handles the full-width blue background color edge-to-edge */
+.hero {
+    background: linear-gradient(to right, #4248bd, #2b6cd4); 
+  padding-top: 60px ;
+  width: 100%;      
+  height: 100vh;    
+  position: relative;
+  color: #ffffff;
+ 
+}
+
+
+.heroContent {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+
+.hero .left {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  flex: 0 0 50%;
+  box-sizing: border-box;
+}
+
+
+.hero .right {
+  flex: 0 0 50%;
+  box-sizing: border-box;
+}
+
+
+.hero .right img {
+  width: 100%;
+  height: auto;
+  display: block; 
+}
+
+.heroContent .left p{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.heroContent .left p span{
+   
+color: rgb(251, 133, 22);
+}
+
+.heroContent .left h1 {
+    font-size: 70px; 
+    font-weight: 600;
+}
+ .left div {
+    display: flex;
+    gap :20px;
+    align-items: center;
+
+ }
+ .left div p {
+    font-size: 18px;
+    font-weight: 500;
+    width: 295px;
+
+ }
+ .left div button {
+   padding: 12px 34px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    color: #ffffff;
+    background-color:  rgb(251, 133, 22);
+ }
+.left div span {
+    color:rgb(251, 133, 22) ;
+}
+
+
+
+.whoWeAre  {
+  display: flex;
+  color: #ffffff;
+  background: linear-gradient(to right, #4248bd, #2b6cd4); 
+ /* padding-top: 120px;
+  padding-bottom: 120px; */
+
+}
+
+.whoWeAre .Experience {
+  background-color: rgb(251, 133, 22) ;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  
+ justify-content: center;
+ align-items: center;
+ border-top-right-radius: 20px;
+ border-bottom-right-radius: 20px;
+
+  
+}
+
+
+.whoWeAre .info {
+background: linear-gradient(to right, #4248bd, #2b6cd4); 
+display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+   justify-content: center;
+ align-items: center;
+}
+ .whoWeAre button {
+  padding: 12px 34px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    color:black;
+ }
+
+ .whoWeAre h2 {
+  font-size: 48px;
+  font-weight: 600;
+ }
+ .whoWeAre p {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+ }
+
+ .support .supportSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-top: 30px;
+
+ }
+ .supportSection .left{
+  width: 40%;
+  padding: 50px;
+ }
+ .supportSection .right{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  /* padding-top: 90px;
+  padding-bottom: 90px; */
+  
+ }
+ .supportSection .left img{
+  width: 100%;
+ }
+
+.supportSection .right h1{
+  font-size: 48px;
+  font-weight: 600;
+ } 
+
+.supportSection .right p{
+  font-size:18px;
+  line-height: 32.4px;
+   opacity: 80%;
+ } 
+  
+
+ .supportSection .right button {
+   padding: 12px 34px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    color: #ffffff;
+    background-color:  rgb(251, 133, 22);
+    width: max-content;
+ }
